@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(110, 110, 247);
+    border: 5px rgb(11, 11, 161) solid;
+    display: flex;
+    height: 300px;
+    flex-basis: 400px; 
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.item{
+    background-color: pink;
+    border: 2.5px rgb(122, 13, 13) solid;
+    height: 80px;
+    flex-basis: 80px;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
